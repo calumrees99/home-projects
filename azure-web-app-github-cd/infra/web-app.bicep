@@ -2,12 +2,13 @@ param project string
 // Parameters
 param environment string 
 param location string 
+param location_shortCode string 
 param sku string
 param repositoryUrl string 
 param linuxFxVersion string 
 param branch string 
-param name_prefix string = '${project}-${environment}-${location}'
-// param name_prefix_no_space string = '${project}${environment}${location}'
+param name_prefix string = '${project}-${environment}-${location_shortCode}'
+// param name_prefix_no_space string = '${project}${environment}${location_shortCode}'
 
 // Variables
 var appServicePlanName = toLower('${name_prefix}-app-plan')
@@ -37,10 +38,11 @@ resource appService 'Microsoft.Web/sites@2020-06-01' = {
 }
 
 resource srcControls 'Microsoft.Web/sites/sourcecontrols@2021-01-01' = {
-  name: '${appService.name}/web'
+  parent: appService
+  name: 'web'
   properties: {
     repoUrl: repositoryUrl
     branch: branch
-    isManualIntegration: true
+    isManualIntegration: false
   }
 }
