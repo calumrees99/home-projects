@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: csr-dev-uks-app
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5F433B461CB04112ABE8A9C947E05A51 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BA1C018119B942C38E3B220C15DD0228 }}
         package: ${{env.DOTNET_ROOT}}/myapp
 
