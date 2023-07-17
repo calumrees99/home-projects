@@ -18645,38 +18645,38 @@
   "RootNamespace": "app",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

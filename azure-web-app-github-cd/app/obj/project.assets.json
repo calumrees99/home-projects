@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\app\\app.csproj",
+      "projectUniqueName": "C:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\app.csproj",
       "projectName": "app",
-      "projectPath": "C:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\app\\app.csproj",
+      "projectPath": "C:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\app.csproj",
       "packagesPath": "C:\\Users\\CalumRees\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\app\\obj\\",
+      "outputPath": "C:\\Users\\CalumRees\\OneDrive - MSQ Partners\\Documents\\Personal\\home-projects\\home-projects\\azure-web-app-github-cd\\app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CalumRees\\AppData\\Roaming\\NuGet\\NuGet.Config"
