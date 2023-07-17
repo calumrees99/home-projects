@@ -24,5 +24,5 @@ This project is to deploy an azure web app service which has github continuous d
 
 - Work needs to be done to understand how the authorization works from first time setup. To get working I had to authoraize first manually through the portal, but then subsequent deployments worked.
 - 'Microsoft.Web/sites/sourcecontrols@2021-01-01' - Either code configuration or container configuration must be specified.
-- "dotnet new webapp" didn't resolve anything
+- The application must run in the root of the repository, there is no way to specify the path i.e. /app
 ### After thoughts
