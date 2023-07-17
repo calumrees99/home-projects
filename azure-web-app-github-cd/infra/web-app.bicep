@@ -44,5 +44,14 @@ resource srcControls 'Microsoft.Web/sites/sourcecontrols@2021-01-01' = {
     repoUrl: repositoryUrl
     branch: branch
     isManualIntegration: false
+    isGitHubAction: true
+    gitHubActionConfiguration: {
+      generateWorkflowFile: true
+      isLinux: true
+      codeConfiguration: {
+        runtimeStack: 'DOTNETCORE'
+        runtimeVersion: '7.0'
+      }
+    }
   }
 }

@@ -22,4 +22,6 @@ This project is to deploy an azure web app service which has github continuous d
 
 ### Notes
 
+- Work needs to be done to understand how the authorization works from first time setup. To get working I had to authoraize first manually through the portal, but then subsequent deployments worked.
+- 'Microsoft.Web/sites/sourcecontrols@2021-01-01' - Either code configuration or container configuration must be specified.
 ### After thoughts
