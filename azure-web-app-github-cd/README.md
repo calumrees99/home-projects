@@ -1,6 +1,6 @@
 # azure-web-app-github-cd
 
-!!! This Demo does not work in the format the code is in. In order for this to work, the application must be stored in the root of the repository !!!
+❗❗❗ This Demo does not work with the current folder structure. In order for this to work, the application must be stored in the root of the repository ❗❗❗
 
 ### Description
 This project is to deploy an azure web app service which has github continuous deployment enabled. The sample application is a .net 7 sample application created using the below command:
