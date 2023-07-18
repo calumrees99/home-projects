@@ -21,14 +21,17 @@ This project is to deploy an azure web app service which has github continuous d
 ```az group delete --name csr-dev-uks-rg ```
 
 ### Use Cases
-- Auto generated environment base on PR
-- Developer self service environments for quick tests
+- Developer self service environment for quick tests/PoC's.
+- When you know you are going to make multiple commits in a short ammount of time and don't want to disrupt wider SDLC.
+- Emergency temp solution whilst a more sophisticated solution is being designed and implemented.
 
 ### Notes
-
 - Work needs to be done to understand how the authorization works from first time setup. To get working I had to authoraize first manually through the portal, but then subsequent deployments worked.
 - 'Microsoft.Web/sites/sourcecontrols@2021-01-01' - Either code configuration or container configuration must be specified.
 - The application must run in the root of the repository, there is no way to specify the path i.e. /app
 - To access the website you have to add a github provider to the Authentication section of the azure web app.
 
 ### After thoughts
+- Was overly complicated to setup and a lot of gotcha's involved for first time setup.
+- Designed for short lived environments.
+- To many complications with Authorization, that you're better off deploying manually.
