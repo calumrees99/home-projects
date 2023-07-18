@@ -5,7 +5,7 @@ param location string
 param location_shortCode string 
 param sku string
 param repositoryUrl string 
-param linuxFxVersion string 
+param netFrameworkVersion string 
 param branch string 
 param name_prefix string = '${project}-${environment}-${location_shortCode}'
 // param name_prefix_no_space string = '${project}${environment}${location_shortCode}'
@@ -32,7 +32,7 @@ resource appService 'Microsoft.Web/sites@2020-06-01' = {
   properties: {
     serverFarmId: appServicePlan.id
     siteConfig: {
-      linuxFxVersion: linuxFxVersion
+      netFrameworkVersion: netFrameworkVersion
     }
   }
 }
@@ -50,8 +50,9 @@ resource srcControls 'Microsoft.Web/sites/sourcecontrols@2021-01-01' = {
       isLinux: true
       codeConfiguration: {
         runtimeStack: 'DOTNETCORE'
-        runtimeVersion: '7.0'
+        runtimeVersion: netFrameworkVersion
       }
     }
   }
 }
+
